@@ -11,7 +11,6 @@
 		48249CEC25B38E6100155CFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48249CEB25B38E6100155CFF /* ContentView.swift */; };
 		48249CEE25B38E6700155CFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48249CED25B38E6700155CFF /* Assets.xcassets */; };
 		48249CF125B38E6700155CFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48249CF025B38E6700155CFF /* Preview Assets.xcassets */; };
-		48EE654B25B3F3850007D5A7 /* SwiftUIVisualEffects in Frameworks */ = {isa = PBXBuildFile; productRef = 48EE654A25B3F3850007D5A7 /* SwiftUIVisualEffects */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +27,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48EE654B25B3F3850007D5A7 /* SwiftUIVisualEffects in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +86,6 @@
 			);
 			name = Vibrancy;
 			packageProductDependencies = (
-				48EE654A25B3F3850007D5A7 /* SwiftUIVisualEffects */,
 			);
 			productName = Vibrancy;
 			productReference = 48249CE625B38E6100155CFF /* Vibrancy.app */;
@@ -118,7 +115,6 @@
 			);
 			mainGroup = 48249CDD25B38E6100155CFF;
 			packageReferences = (
-				48EE654925B3F3850007D5A7 /* XCRemoteSwiftPackageReference "swiftui-visual-effects" */,
 			);
 			productRefGroup = 48249CE725B38E6100155CFF /* Products */;
 			projectDirPath = "";
@@ -205,7 +201,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -260,7 +256,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -279,7 +275,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Vibrancy/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Vibrancy/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +296,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Vibrancy/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Vibrancy/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,25 +330,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		48EE654925B3F3850007D5A7 /* XCRemoteSwiftPackageReference "swiftui-visual-effects" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/lucasbrown/swiftui-visual-effects";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.3;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		48EE654A25B3F3850007D5A7 /* SwiftUIVisualEffects */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 48EE654925B3F3850007D5A7 /* XCRemoteSwiftPackageReference "swiftui-visual-effects" */;
-			productName = SwiftUIVisualEffects;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 48249CDE25B38E6100155CFF /* Project object */;
 }
